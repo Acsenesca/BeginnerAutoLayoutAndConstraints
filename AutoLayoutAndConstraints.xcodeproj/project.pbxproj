@@ -15,6 +15,7 @@
 		46D0E7EF2351D3C900A27DEF /* SAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0E7EE2351D3C900A27DEF /* SAButton.swift */; };
 		46D0E7F12351D3E600A27DEF /* SATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0E7F02351D3E600A27DEF /* SATextField.swift */; };
 		46D0E7F32351D51C00A27DEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0E7F22351D51C00A27DEF /* Constants.swift */; };
+		46D0E7F92351E82F00A27DEF /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0E7F82351E82F00A27DEF /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		46D0E7EE2351D3C900A27DEF /* SAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAButton.swift; sourceTree = "<group>"; };
 		46D0E7F02351D3E600A27DEF /* SATextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATextField.swift; sourceTree = "<group>"; };
 		46D0E7F22351D51C00A27DEF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		46D0E7F82351E82F00A27DEF /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				46D0E7D52351BCCF00A27DEF /* LaunchScreen.storyboard */,
 				46D0E7D82351BCCF00A27DEF /* Info.plist */,
 				46D0E7F22351D51C00A27DEF /* Constants.swift */,
+				46D0E7F82351E82F00A27DEF /* HomeController.swift */,
 			);
 			path = AutoLayoutAndConstraints;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				46D0E7F32351D51C00A27DEF /* Constants.swift in Sources */,
 				46D0E7CF2351BCCC00A27DEF /* ViewController.swift in Sources */,
+				46D0E7F92351E82F00A27DEF /* HomeController.swift in Sources */,
 				46D0E7F12351D3E600A27DEF /* SATextField.swift in Sources */,
 				46D0E7EF2351D3C900A27DEF /* SAButton.swift in Sources */,
 				46D0E7CD2351BCCC00A27DEF /* AppDelegate.swift in Sources */,

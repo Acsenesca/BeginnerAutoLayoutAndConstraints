@@ -24,6 +24,9 @@
                                     <constraint firstAttribute="height" constant="50" id="99U-Wz-FbK"/>
                                 </constraints>
                                 <state key="normal" title="LOGIN"/>
+                                <connections>
+                                    <action selector="signinButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G4f-pf-gUZ"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z1G-z4-dvS" customClass="SATextField" customModule="AutoLayoutAndConstraints" customModuleProvider="target">
                                 <rect key="frame" x="30" y="632" width="354" height="50"/>
@@ -58,6 +61,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="passwordField" destination="Z1G-z4-dvS" id="HJs-e5-OJq"/>
+                        <outlet property="usernameField" destination="pP1-Im-VHp" id="ZV3-Du-sQh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

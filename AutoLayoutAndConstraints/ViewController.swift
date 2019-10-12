@@ -11,7 +11,9 @@ import UIKit
 class ViewController: UIViewController {
     
     let backgroundImageView = UIImageView()
-
+    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,8 +24,21 @@ class ViewController: UIViewController {
         
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
-
     }
+    
+    @IBAction func signinButton(_ sender: UIButton) {
+        
+        let username: String
+        let password: String
+        
+        username = usernameField.text!
+        password = passwordField.text!
+
+        if username == "steve" && password == "halo01" {
+            
+        }
+    }
+    
     
     func setBackground() {
         view.addSubview(backgroundImageView)
