@@ -15,10 +15,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInpu,tViewController.dismissKeyboard))
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInpu,tViewController.dismissKeyboard))
 
         setBackground()
-//        view.addGestureRecognizer(tap)
+        view.addGestureRecognizer(tap)
     }
     
     func setBackground() {
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         view.sendSubviewToBack(backgroundImageView)
     }
     
-//    @objc func dismissKeyboard() {
-//        view.endEditing(true)
-//    }
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
 }
