@@ -12,6 +12,9 @@
 		46D0E7D22351BCCC00A27DEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D0E7D02351BCCC00A27DEF /* Main.storyboard */; };
 		46D0E7D42351BCCF00A27DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D0E7D32351BCCF00A27DEF /* Assets.xcassets */; };
 		46D0E7D72351BCCF00A27DEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D0E7D52351BCCF00A27DEF /* LaunchScreen.storyboard */; };
+		46D0E7EF2351D3C900A27DEF /* SAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0E7EE2351D3C900A27DEF /* SAButton.swift */; };
+		46D0E7F12351D3E600A27DEF /* SATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0E7F02351D3E600A27DEF /* SATextField.swift */; };
+		46D0E7F32351D51C00A27DEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0E7F22351D51C00A27DEF /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		46D0E7D32351BCCF00A27DEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46D0E7D62351BCCF00A27DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46D0E7D82351BCCF00A27DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D0E7EE2351D3C900A27DEF /* SAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAButton.swift; sourceTree = "<group>"; };
+		46D0E7F02351D3E600A27DEF /* SATextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATextField.swift; sourceTree = "<group>"; };
+		46D0E7F22351D51C00A27DEF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		46D0E7CB2351BCCC00A27DEF /* AutoLayoutAndConstraints */ = {
 			isa = PBXGroup;
 			children = (
+				46D0E7ED2351D3AD00A27DEF /* CustomViews */,
 				46D0E7CC2351BCCC00A27DEF /* AppDelegate.swift */,
 				46D0E7CE2351BCCC00A27DEF /* ViewController.swift */,
 				46D0E7D02351BCCC00A27DEF /* Main.storyboard */,
 				46D0E7D32351BCCF00A27DEF /* Assets.xcassets */,
 				46D0E7D52351BCCF00A27DEF /* LaunchScreen.storyboard */,
 				46D0E7D82351BCCF00A27DEF /* Info.plist */,
+				46D0E7F22351D51C00A27DEF /* Constants.swift */,
 			);
 			path = AutoLayoutAndConstraints;
+			sourceTree = "<group>";
+		};
+		46D0E7ED2351D3AD00A27DEF /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				46D0E7EE2351D3C900A27DEF /* SAButton.swift */,
+				46D0E7F02351D3E600A27DEF /* SATextField.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D0E7F32351D51C00A27DEF /* Constants.swift in Sources */,
 				46D0E7CF2351BCCC00A27DEF /* ViewController.swift in Sources */,
+				46D0E7F12351D3E600A27DEF /* SATextField.swift in Sources */,
+				46D0E7EF2351D3C900A27DEF /* SAButton.swift in Sources */,
 				46D0E7CD2351BCCC00A27DEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
